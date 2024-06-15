@@ -1,0 +1,34 @@
+<mat-form-field>
+    <mat-label>Select Meal</mat-label>
+    <mat-select [(value)]="selectedMeal">
+      <mat-option value="Breakfast">Breakfast</mat-option>
+      <mat-option value="Lunch">Lunch</mat-option>
+      <mat-option value="Dinner">Dinner</mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <table mat-table [dataSource]="getMenuItems()">
+    <ng-container matColumnDef="id">
+        <th mat-header-cell *matHeaderCellDef> ID </th>
+        <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+      </ng-container>
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+    <ng-container matColumnDef="description">
+        <th mat-header-cell *matHeaderCellDef> Description </th>
+        <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+      </ng-container>
+      <ng-container matColumnDef="category">
+        <th mat-header-cell *matHeaderCellDef> Category </th>
+        <td mat-cell *matCellDef="let element"> {{element.category}} </td>
+      </ng-container>
+      <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef> Price </th>
+      <td mat-cell *matCellDef="let element"> {{element.price | currency}} </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="['id', 'name', 'description', 'category', 'price']"></tr>
+    <tr mat-row *matRowDef="let row; columns: ['id', 'name', 'description', 'category', 'price'];"></tr>
+  </table>
+  

@@ -1,0 +1,158 @@
+{
+    "menu": {
+      "Breakfast": [
+        {
+          "id": 1,
+          "name": "Classic Pancakes",
+          "category": "Breakfast",
+          "price": 5.99,
+          "description": "Fluffy pancakes served with syrup and butter."
+        },
+        {
+          "id": 2,
+          "name": "Omelette",
+          "category": "Breakfast",
+          "price": 7.99,
+          "description": "Three-egg omelette with cheese, mushrooms, and spinach."
+        },
+        {
+          "id": 3,
+          "name": "French Toast",
+          "category": "Breakfast",
+          "price": 6.50,
+          "description": "Brioche bread soaked in egg mixture, pan-fried to golden perfection."
+        },
+        {
+          "id": 4,
+          "name": "Breakfast Burrito",
+          "category": "Breakfast",
+          "price": 8.99,
+          "description": "A large tortilla filled with scrambled eggs, bacon, cheese, and salsa."
+        },
+        {
+          "id": 5,
+          "name": "Fruit Bowl",
+          "category": "Breakfast",
+          "price": 4.99,
+          "description": "Seasonal fresh fruits served in a bowl."
+        }
+      ],
+      "Lunch": [
+        {
+          "id": 6,
+          "name": "Caesar Salad",
+          "category": "Lunch",
+          "price": 9.99,
+          "description": "Crisp romaine lettuce with Caesar dressing, croutons, and parmesan."
+        },
+        {
+          "id": 7,
+          "name": "Cheeseburger",
+          "category": "Lunch",
+          "price": 11.99,
+          "description": "Grilled beef patty with cheese, lettuce, tomato, and onion on a brioche bun."
+        },
+        {
+          "id": 8,
+          "name": "Veggie Wrap",
+          "category": "Lunch",
+          "price": 10.50,
+          "description": "A wrap filled with fresh vegetables, hummus, and feta cheese."
+        },
+        {
+          "id": 9,
+          "name": "Chicken Alfredo Pasta",
+          "category": "Lunch",
+          "price": 13.99,
+          "description": "Penne pasta in Alfredo sauce with grilled chicken and parmesan."
+        },
+        {
+          "id": 10,
+          "name": "Fish Tacos",
+          "category": "Lunch",
+          "price": 12.99,
+          "description": "Two tacos with crispy fish, cabbage slaw, and a lime crema."
+        }
+      ],
+      "Dinner": [
+        {
+          "id": 11,
+          "name": "Ribeye Steak",
+          "category": "Dinner",
+          "price": 22.99,
+          "description": "10 oz ribeye steak served with mashed potatoes and asparagus."
+        },
+        {
+          "id": 12,
+          "name": "Salmon Fillet",
+          "category": "Dinner",
+          "price": 19.99,
+          "description": "Grilled salmon fillet with a lemon butter sauce and seasonal vegetables."
+        },
+        {
+          "id": 13,
+          "name": "Vegetarian Lasagna",
+          "category": "Dinner",
+          "price": 17.99,
+          "description": "Layers of pasta, marinara sauce, zucchini, spinach, and cheeses."
+        },
+        {
+          "id": 14,
+          "name": "Duck Confit",
+          "category": "Dinner",
+          "price": 24.99,
+          "description": "Slow-cooked duck leg with a crispy skin, served with red wine sauce."
+        },
+        {
+          "id": 15,
+          "name": "Mushroom Risotto",
+          "category": "Dinner",
+          "price": 16.99,
+          "description": "Creamy Arborio rice with wild mushrooms and a drizzle of truffle oil."
+        }
+      ]
+    },
+    "locations": [
+      {
+        "locationId": 1,
+        "name": "Downtown Delights",
+        "address": "123 Main St",
+        "city": "Metropolis",
+        "state": "NY",
+        "zipCode": "10001"
+      },
+      {
+        "locationId": 2,
+        "name": "Suburban Eats",
+        "address": "456 Suburbia Ln",
+        "city": "Springfield",
+        "state": "IL",
+        "zipCode": "62704"
+      },
+      {
+        "locationId": 3,
+        "name": "Riverside Café",
+        "address": "789 River Rd",
+        "city": "River City",
+        "state": "CA",
+        "zipCode": "90001"
+      },
+      {
+        "locationId": 4,
+        "name": "Mountain View Diner",
+        "address": "101 Mountain Ave",
+        "city": "Highland",
+        "state": "CO",
+        "zipCode": "80014"
+      },
+      {
+        "locationId": 5,
+        "name": "Beachside Bistro",
+        "address": "202 Ocean Blvd",
+        "city": "Sandy Shores",
+        "state": "FL",
+        "zipCode": "33139"
+      }
+    ]
+  }
+  
